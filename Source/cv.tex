@@ -1,0 +1,175 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Graduate Curriculum Vitae
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Important note:
+% This template requires the res.cls file to be in the same directory as the
+% .tex file. The res.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[margin, 10pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+
+\usepackage{helvet} % Default font is the helvetica postscript font
+%\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
+\usepackage{multicol}
+\usepackage{hyperref}
+\usepackage{filemod}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+\def\parsedate #1:20#2#3#4#5#6#7#8\empty{20#2#3/#4#5/#6#7}
+\def\moddate#1{\expandafter\parsedate\pdffilemoddate{#1}\empty}
+
+\setlength{\textwidth}{5.1in} % Text width of the document
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%----------------------------------------------------------------------------------------
+
+\moveleft.5\hoffset\centerline{\large\bf \href{https://www.thomasboudreaux.com}{Thomas M. Boudreaux}} % Your name at the top
+ 
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
+ 
+\moveleft.5\hoffset\centerline{5703 Gaines St.} % Your address
+\moveleft.5\hoffset\centerline{Burke, Virginia 22015}
+\moveleft.5\hoffset\centerline{(571)-428-8828}
+\moveleft.5\hoffset\centerline{thomas@boudreauxmail.com}
+
+%----------------------------------------------------------------------------------------
+
+\begin{resume}
+
+%----------------------------------------------------------------------------------------
+%	Areas of Interest SECTION
+%----------------------------------------------------------------------------------------
+ 
+\section{RESEARCH INTERESTS}  
+Computational astrophysics, machine learning, pulsating hot subluminous B stars, chaotic systems, globular cluster dynamics.
+ 
+
+%----------------------------------------------------------------------------------------
+%	Technology SKILLS SECTION
+%----------------------------------------------------------------------------------------
+\section{EDUCATION}
+{\large Dartmouth College} \hfill Hanover, NH\\
+{\-\ \-\ \small \textit{Master of Science} --- Astronomy} \hfill May 2021 (expected)\\
+{\-\ \-\ \small \textit{Doctor of Philosophy} –-- Astronomy} \hfill Spring 2024 (expected)
+
+{\large High Point University} \hfill High Point, NC\\
+{\-\ \-\ \small \textit{Bachelor of Science}, \textbf{summa cum laude} --- Computational Physics} \hfill May 2019\\
+{\-\ \-\ \-\ \-\ \small Advisor: \href{http://linus.highpoint.edu/~bbarlow/}{Brad N. Barlow}} \\
+\section{PUBLICATIONS}
+\begin{itemize}
+\item Vos, J., Vu\u{c}kovi\`c, M., Chen, X., Han, Z., \textbf{Boudreaux, T. M.}, Barlow, B. N., \O stensen, R., N\`emeth, P., 2019, ``\href{https://ui.adsabs.harvard.edu/#abs/2019MNRAS.482.4592V/abstract}{The orbital period --- mass ratio relation of wide sdB+MS binaries and its application to the stability of RLOF.}", \textit{Monthly Notices of The Royal Astronomical Society}, \textbf{482}, 4592 
+\item \textbf{Boudreaux, T. M.}, 2017, ``\href{https://ui.adsabs.harvard.edu/#abs/2017OAst...26..258B/abstract}{The applications of deep neural networks to sdBV classification}'', \textit{Open Astronomy}, \textbf{26}, 258.
+\item \textbf{Boudreaux, T. M.}, Barlow, B. N., Fleming, S. W., Soto, A. V., Million, C., Reichart, D. E., Haislip, J. B., Linder, T. R., Moore, J. P., 2017. ``\href{https://ui.adsabs.harvard.edu/#abs/2017ApJ...845..171B/abstract}{A search for rapidly pulsating hot subdwarf stars in the GALEX survey}'', \textit{Astrophysical Journal}, \textbf{845}, 171.
+\end{itemize}
+
+\section{COMPUTING \\ SKILLS} 
+
+\begin{itemize}
+\item {\sl Programming Languages:} 
+    \begin{enumerate}
+        \item{\sl Expert: } Python, C/C++
+        \item{\sl Comfortable: } MATLAB, Arduino, PHP, JavaScript
+        \item{\sl Familiar: } FORTRAN, LabView, Mathematica
+    \end{enumerate}
+\item {\sl Web Backend Technologies:} Flask, MongoDB, MySQL, Google App Engine
+\item {\sl Misc:} Period04, Docker, GitHub, ZFS, LaTeX, Bash, Zsh
+\end{itemize}
+ 
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+ 
+
+
+\section{AWARDS \& HONORS}
+\begin{itemize}
+    \item \textbf{{\scriptsize The National Science Foundation}}, {\small 2019}\\Graduate Record Fellowship Program Honorable Mention
+    \item \textbf{{\scriptsize High Point University}},
+    {\small 2019}\\University Award for Highest Achievement
+    \item \textbf{{\scriptsize High Point University Honors Scholar Program}},
+    {\small 2019}\\All University Honors
+	\item \textbf{{\scriptsize The Barry Goldwater Scholarship and Excellence in Education Foundation}}, {\small 2018}\\Goldwater Scholar in Mathematics, Science, and Engineering 
+    \item \textbf{{\scriptsize High Point University Department of Physics}}, {\small 2018}\\Endowed Scholarship
+    \item {\scriptsize \textbf{National Collegiate Honors Council}}, {\small 2018}\\Portz Scholarship
+    \item \textbf{{\scriptsize Sigma Xi, The Scientific Research Honors Society}}, {\small 2018}\\Elected Associate Member
+     \item \textbf{{\scriptsize Sigma Pi Sigma, National Physics Honor Society}}, {\small 2018}\\Elected Member
+    \item \textbf{{\scriptsize The Barry Goldwater Scholarship and Excellence in Education Foundation}}, {\small 2017}\\Honorable Mention for excellence in Mathematics, Science, and Engineering 
+	\item \textbf{{\scriptsize High Point University}}, {\small 2015--2019}\\Presidential Scholarship
+    \item \textbf{{\scriptsize High Point University}}, {\small 2015--2019}\\Honors Scholar
+    \item \textbf{{\scriptsize High Point University}}, {\small 2015--2019}\\Dean's list
+\end{itemize}
+
+\section{ORAL\\PRESENTATIONS}
+\begin{itemize}
+\item {\scriptsize \textbf{National Collegiate Honors Council Annual Meeting}}, {\small 2018, Boston, MA}\\ ``The Applications of Deep Neural Networks to sdBV Classification'' {\footnotesize [Invited]}
+\item {\scriptsize \textbf{North Carolina Astronomers Meeting}}, {\small 2017, Greensboro, NC}\\ ``The Applications of Deep Neural Networks to sdBV Classification''
+\item {\scriptsize \textbf{Eighth Annual Meeting on Hot Subdwarfs and Related Objects}}, {\small 2017, Krak\`ow, Poland}\\ ``The Applications of Deep Neural Networks to sdBV Classification''
+\item {\scriptsize \textbf{High Point University Research and Creative Works Symposium}}, {\small 2017, High Point, NC}\\ ``A Virtual Survey of all known Hot Subdwarfs -- searching for p-mode pulsations with GALEX''
+\item \textbf{{\scriptsize Meeting of Astronomers in South Carolina}}, {\small 2017, Greenville, SC}\\``The Applications of Deep Neural Networks to Time Domain Astrophysics''
+\item {\scriptsize \textbf{North Carolina Astronomers Meeting}}, {\small 2016, Greensboro, NC}\\``A Virtual Survey of all known Hot Subdwarfs -- searching for p-mode pulsations with GALEX''
+\end{itemize}
+
+\section{POSTER\\PRESENTATIONS}
+\begin{itemize}
+\item {\scriptsize \textbf{233rd Meeting of the American Astronomical Society}}, {\small 2019, Seattle Washington}\\ ``\href{https://ui.adsabs.harvard.edu/#abs/2019AAS...23314705C/abstract}{A Journey to Mars: HPUniverse Day and Its Impact on Young Minds and a Community.}''
+\item {\scriptsize \textbf{233rd Meeting of the American Astronomical Society}}, {\small 2019, Seattle Washington}\\ ``\href{https://ui.adsabs.harvard.edu/#abs/2019AAS...23324909B/abstract}{Effects of the Primordial Binary Fraction on the Evolution of Globular Clusters.}''
+\item {\scriptsize \textbf{High Point University Research and Creative Works Symposium}}, {\small 2018, High Point, NC}\\ ``Listening to the voices of Stars with Deep Neural Networks''
+\item \textbf{{\scriptsize 231st Meeting of the American Astronomical Society}}, {\small 2018, Washington D.C.}\\``\href{https://ui.adsabs.harvard.edu/#abs/2018AAS...23115029B/abstract}{Using Deep Learning to Analyze the Voices of Stars.}''
+\item \textbf{{\scriptsize North Carolina Academy of Sciences Annual Meeting}}, {\small 2017, High Point, NC}\\ ``A Virtual Survey of all known Hot Subdwarfs -- searching for p-mode pulsations with GALEX''
+\item {\scriptsize \textbf{High Point University Research and Creative Works Symposium}}, {\small 2016, High Point, NC}\\``New Long Period Hot Subdwarfs from the Hobby-Eberly Telescope''
+\item \textbf{{\scriptsize 227th Meeting of the American Astronomical Society}}, {\small 2016, Kissimmee, FL}\\``\href{https://ui.adsabs.harvard.edu/#abs/2016AAS...22734412B/abstract}{New Long Period Hot Subdwarfs from the Hobby-Eberly Telescope}''
+\end{itemize}
+
+\section{JOBS \& INTERNSHIPS}
+\begin{itemize}
+  \item \textbf{{\scriptsize Harvard Smithsonian Astrophysical Observatory}}, {\small 2018} \\Harvard SAO REU Student
+  \item \textbf{{\scriptsize Space Telescope Science Institute}}, {\small 2016} \\SASP Summer Intern
+  \item \textbf{{\scriptsize High Point University}}, {\small 2016}\\Student Instructor Calculus III
+  \item \textbf{{\scriptsize Encore Stage \& Studio}}, {\small 2016-2017}\\Technical Director
+  \item \textbf{{\scriptsize Encore Stage \& Studio}}, {\small2015-2016}\\Assistant Technical Director
+\end{itemize}
+
+\section{SOFTWARE}
+All of my software can be found on my \href{https://github.com/tboudreaux}{GitHub} page.
+\begin{itemize}
+\item \href{https://github.com/tboudreaux/mpl_animate}{mplEasyAnimate} --- Simple and easy animation library for use with matplotlib.
+\item \href{https://github.com/AstroSynth/astroSynth}{astroSynth} --- Synthetic pulsating star light curve generation suite.
+\item \href{https://github.com/tboudreaux/pyBJD}{pyBJD} --- Python bindings for Ohio state UTC to BJD conversion. [Deprecated]
+\item \href{https://github.com/tboudreaux/vectorpy}{vectorPy} --- Python 3--vector package.
+\end{itemize}
+
+\section{RESEARCH PROJECTS}
+\begin{itemize}
+    \item Effects of the Primordial Binary Fraction on Globular Cluster Evolution, 2018
+	\item Applications of Deep Learning to Classification of PTF Data, 2018
+    \item Applications of Machine Learning to the Classification of Pulsating Stars, 2017--2018
+    \item A Search for Rapidly Pulsating Hot Subdwarfs in the GALEX Survey, 2016--2017
+    \item Orbital Solution Analysis of Long Period sdB+F/G/K Binaries, 2015--2016
+\end{itemize}
+
+
+\end{resume}
+\end{document}
